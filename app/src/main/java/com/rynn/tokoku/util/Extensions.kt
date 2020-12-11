@@ -1,4 +1,4 @@
-package com.rynn.appserba.util
+package com.rynn.tokoku.util
 
 import android.content.SharedPreferences
 import com.google.gson.Gson

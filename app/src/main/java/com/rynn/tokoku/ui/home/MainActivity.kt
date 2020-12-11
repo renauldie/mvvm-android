@@ -1,13 +1,13 @@
-package com.rynn.appserba.ui.home
+package com.rynn.tokoku.ui.home
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.rynn.appserba.R
-import com.rynn.appserba.databinding.ActivityMainBinding
-import com.rynn.appserba.ui.auth.AppserbaAuth
-import com.rynn.appserba.ui.auth.AuthActivity
+import com.rynn.tokoku.R
+import com.rynn.tokoku.databinding.ActivityMainBinding
+import com.rynn.tokoku.ui.auth.tokokuAuth
+import com.rynn.tokoku.ui.auth.AuthActivity
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.buttonLogout.setOnClickListener {
-            AppserbaAuth.logout(this) {
+            tokokuAuth.logout(this) {
                 startActivity(Intent(this, AuthActivity::class.java))
                 finish()
             }

@@ -1,4 +1,4 @@
-package com.rynn.appserba.ui.auth
+package com.rynn.tokoku.ui.auth
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.rynn.appserba.R
-import com.rynn.appserba.data.repository.AuthRepository
-import com.rynn.appserba.databinding.FragmentSplashBinding
+import com.rynn.tokoku.R
+import com.rynn.tokoku.data.repository.AuthRepository
+import com.rynn.tokoku.databinding.FragmentSplashBinding
 import kotlinx.coroutines.*
 
 class SplashFragment : Fragment() {

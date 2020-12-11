@@ -1,11 +1,11 @@
-package com.rynn.appserba.data.local
+package com.rynn.tokoku.data.local
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.rynn.appserba.data.model.ActionState
-import com.rynn.appserba.data.model.AuthUser
-import com.rynn.appserba.util.getObject
-import com.rynn.appserba.util.putObject
+import com.rynn.tokoku.data.model.ActionState
+import com.rynn.tokoku.data.model.AuthUser
+import com.rynn.tokoku.util.getObject
+import com.rynn.tokoku.util.putObject
 
 class AuthPref(val context: Context) {
     private val sp: SharedPreferences by lazy {

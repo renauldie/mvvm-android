@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rynn.appserba">
+    package="com.rynn.tokoku">
 
     <application
         android:allowBackup="true"
@@ -8,9 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Appserba">
+        android:theme="@style/Theme.tokoku">
         <activity android:name=".ui.auth.AuthActivity"
-            android:theme="@style/Theme.Appserba.Auth">
+            android:theme="@style/Theme.tokoku.Auth">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.rynn.appserba
+package com.rynn.tokoku
 
 import org.junit.Test
 

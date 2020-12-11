@@ -1,10 +1,10 @@
-package com.rynn.appserba.data.repository
+package com.rynn.tokoku.data.repository
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
-import com.rynn.appserba.data.local.AuthPref
-import com.rynn.appserba.data.model.ActionState
-import com.rynn.appserba.data.model.AuthUser
+import com.rynn.tokoku.data.local.AuthPref
+import com.rynn.tokoku.data.model.ActionState
+import com.rynn.tokoku.data.model.AuthUser
 
 class AuthRepository(val context: Context) {
     private val authPref: AuthPref by lazy { AuthPref(context) }

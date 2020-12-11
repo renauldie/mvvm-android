@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.rynn.appserba.ui.auth.SplashFragment"
+        android:name="com.rynn.tokoku.ui.auth.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.rynn.appserba.ui.auth.LoginFragment"
+        android:name="com.rynn.tokoku.ui.auth.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.rynn.appserba.ui.auth.RegisterFragment"
+        android:name="com.rynn.tokoku.ui.auth.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.rynn.appserba.ui.home.MainActivity"
+        android:name="com.rynn.tokoku.ui.home.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
 </navigation>

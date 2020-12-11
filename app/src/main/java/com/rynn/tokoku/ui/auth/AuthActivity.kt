@@ -1,13 +1,13 @@
-package com.rynn.appserba.ui.auth
+package com.rynn.tokoku.ui.auth
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.rynn.appserba.R
-import com.rynn.appserba.data.model.AuthUser
-import com.rynn.appserba.databinding.ActivityAuthBinding
-import com.rynn.appserba.ui.home.MainActivity
+import com.rynn.tokoku.R
+import com.rynn.tokoku.data.model.AuthUser
+import com.rynn.tokoku.databinding.ActivityAuthBinding
+import com.rynn.tokoku.ui.home.MainActivity
 
 class AuthActivity : AppCompatActivity() {
     lateinit var binding: ActivityAuthBinding

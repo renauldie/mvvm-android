@@ -1,11 +1,11 @@
-package com.rynn.appserba.ui.auth
+package com.rynn.tokoku.ui.auth
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.rynn.appserba.data.model.ActionState
-import com.rynn.appserba.data.model.AuthUser
-import com.rynn.appserba.data.repository.AuthRepository
+import com.rynn.tokoku.data.model.ActionState
+import com.rynn.tokoku.data.model.AuthUser
+import com.rynn.tokoku.data.repository.AuthRepository
 import kotlinx.coroutines.launch
 
 class AuthViewModel(val repo: AuthRepository) : ViewModel() {

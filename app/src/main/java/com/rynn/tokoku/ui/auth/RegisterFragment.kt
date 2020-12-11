@@ -1,4 +1,4 @@
-package com.rynn.appserba.ui.auth
+package com.rynn.tokoku.ui.auth
 
 import android.os.Bundle
 import android.util.Log
@@ -8,10 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
-import com.rynn.appserba.R
-import com.rynn.appserba.data.repository.AuthRepository
-import com.rynn.appserba.databinding.ActivityAuthBinding
-import com.rynn.appserba.databinding.FragmentRegisterBinding
+import com.rynn.tokoku.R
+import com.rynn.tokoku.data.repository.AuthRepository
+import com.rynn.tokoku.databinding.ActivityAuthBinding
+import com.rynn.tokoku.databinding.FragmentRegisterBinding
 
 class RegisterFragment : Fragment() {
     val parent: AuthActivity by lazy { activity as AuthActivity }

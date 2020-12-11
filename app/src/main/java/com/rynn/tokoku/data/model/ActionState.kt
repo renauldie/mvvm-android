@@ -1,4 +1,4 @@
-package com.rynn.appserba.data.model
+package com.rynn.tokoku.data.model
 
 data class ActionState<T>(
     val data: T? = null,
